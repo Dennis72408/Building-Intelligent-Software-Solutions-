@@ -43,14 +43,13 @@ Workflow:
 
 1. Loaded and cleaned dataset.
 
-
-2. Engineered features and labeled samples as high/medium/low risk.
-
-
-3. Trained Random Forest Classifier.
+3. Engineered features and labeled samples as high/medium/low risk.
 
 
-4. Evaluated with train/test split and metrics.
+4. Trained Random Forest Classifier.
+
+
+5. Evaluated with train/test split and metrics.
 
 
 
@@ -60,5 +59,35 @@ Accuracy: 96.1%
 
 F1 Score: 95.8%
 
+Part 3: Ethical Reflection (10%)
+
+Reflection: Deployed models may reflect hidden biases from skewed datasets—e.g., prioritizing tasks from historically dominant teams. IBM AI Fairness 360 can audit models for fairness, analyze feature impact, and mitigate bias through preprocessing and reweighting. Integrating such tools ensures just and reliable predictions.
 
 Codebase: GitHub Repository
+
+Bonus Task: Innovation Challenge (10%)
+
+Proposal: IntelliDocs – AI-Powered Documentation Assistant
+
+Purpose: Automatically generates and maintains code documentation using NLP.
+
+Workflow:
+
+1. Scans source code for functions/classes.
+
+
+2. Uses NLP to generate explanations and docstrings.
+
+
+3. Integrates with CI to update docs automatically.
+
+
+
+Impact:
+
+Reduces time spent on documentation.
+
+Boosts code readability and onboarding.
+
+Encourages consistent documentation standards.
+
